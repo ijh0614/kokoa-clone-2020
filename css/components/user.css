@@ -1,6 +1,8 @@
 .user-component {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-right: var(--horizontal-space);
 }
 .user__column:first-child {
     display: flex;
@@ -12,13 +14,52 @@
     border-radius: 40%;
     margin-right: 20px;
 }
-.user-component-name h4 {
+.user-component-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-component-name span:first-child {
     font-size: 22px;
     font-weight: 600;
+    margin-top: 15px;
 }
-.user-component-name h6 {
+.user-component-name span:nth-child(2) {
     font-size: 18px;
     font-weight: 600;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.4);
     margin-top: 10px;
+}
+.user-component-big img {
+    width: 80px;
+    height: 80px;
+    margin-left: var(--horizontal-space);
+    margin-top: 10px;
+}
+.user-component-middle img {
+    width: 70px;
+    height: 70px;
+    margin-left: var(--horizontal-space);
+    margin-top: 10px;
+}
+.user-component-small img {
+    width: 60px;
+    height: 60px;
+    margin-left: var(--horizontal-space);
+    margin-top: 10px;
+}
+.user-component-big .user-component-name-span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.user-component-middle .user-component-name-span {
+    font-weight: 600;
+    font-size: 20px;
+}
+.user-component-small .user-component-name-span {
+    font-weight: 400;
+    font-size: 20px;
+}
+.user__column:last-child {
+    color: rgba(0, 0, 0, 0.6);
 }

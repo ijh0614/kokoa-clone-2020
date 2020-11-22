@@ -1,0 +1,16 @@
+.red_alam {
+    border-radius: 50%;
+    background-color: #ff6229;
+}
+.na__num_notification {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 17px;
+    left: 20px;
+}

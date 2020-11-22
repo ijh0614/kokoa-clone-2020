@@ -6,10 +6,11 @@
 @import "components/nav-bar.css"; /*페이지 최하단에 4가지 링크가 걸린 네비게이션*/
 @import "components/screen-top.css"; /*페이지 상단에 제목과 아이콘의 스타일을 정리한 css*/
 @import "components/user.css";
-
+@import "components/badge.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 
 body {
     color: #2e363e;
