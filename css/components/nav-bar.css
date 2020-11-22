@@ -1,0 +1,41 @@
+.nav {
+    background-color: #f9f9fa;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 55px;
+}
+.nav__a {
+    color: #2f363e;
+}
+.red_alam {
+    border-radius: 50%;
+    background-color: #ff6229;
+}
+.na__num_notification {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 17px;
+    left: 20px;
+}
+.nav__li {
+    position: relative;
+}
+.na__circle_notification {
+    position: absolute;
+    bottom: 28px;
+    left: 32px;
+    width: 6px;
+    height: 6px;
+}

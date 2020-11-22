@@ -1,1 +1,94 @@
-H2
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Friend - KokoaTalk</title>
+    </head>
+    <body class="friends-body">
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+                <!--wifi 이미지-->
+            </div>
+            <div class="status-bar_column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+                <!--배터리 아이콘과 충전 아이콘-->
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a class="nav__a" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="#"><i class="far fa-comment fa-2x"></i></a>
+                    <span class="red_alam na__num_notification">1</span>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="# "><i class="fas fa-search fa-2x"></i></a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                    <div class="red_alam na__circle_notification"></div>
+                </li>
+            </ul>
+        </nav>
+        <header class="header">
+            <!--상단에 제목+아이콘 / 이건 screen-top으로 컴포넌트 해줬기 때문에 따로 앞에 friends 써줄 필요 없이 header로 작명-->
+            <h1 class="header_title">Friends</h1>
+            <div class="header_icons">
+                <span><i class="fas fa-search fa-2x"></i></span>
+                <span><i class="fas fa-music fa-2x"></i></span>
+                <span><i class="fas fa-cog fa-2x"></i></span>
+            </div>
+        </header>
+        <div id="friends-info">
+            <a href="#"><i class="fas fa-info-circle fa-lg"></i> Friends' Names Display</a>
+            <span>></span>
+        </div>
+        <!--이 태그를 필요할 때마다 사용 클래스로 크기 조절-->
+        <div class="user-component big-user">
+            <div class="user__column">
+                <img class="user-component-img" src="image/me.PNG" />
+                <div class="user-component-name">
+                    <h4>임종훈</h4>
+                    <!--<h6>안녕하세요.</h6>-->
+                </div>
+            </div>
+            <div class="user__column"></div>
+
+            <!--두번째 열은 왼쪽에 알림이나 추가 뭐가 떴을때 사용함.-->
+        </div>
+        <div class="friends-channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="user-component small-user">
+                <div class="user__column">
+                    <img class="user-component-img" src="image/onui.png" />
+                    <div class="user-component-name">
+                        <h4>Channel</h4>
+                        <!--<h6>안녕하세요.</h6>-->
+                    </div>
+                </div>
+                <div class="user__column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+
+                <!--두번째 열은 왼쪽에 알림이나 추가 뭐가 떴을때 사용함.-->
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

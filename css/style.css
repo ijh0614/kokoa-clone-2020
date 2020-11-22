@@ -3,10 +3,15 @@
 @import "variables.css";
 /*components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css"; /*페이지 최하단에 4가지 링크가 걸린 네비게이션*/
+@import "components/screen-top.css"; /*페이지 상단에 제목과 아이콘의 스타일을 정리한 css*/
+@import "components/user.css";
 
 /*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+    color: #2e363e;
     font-family: "Roboto", sans-serif;
 }

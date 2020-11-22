@@ -1,0 +1,24 @@
+.user-component {
+    display: flex;
+    justify-content: space-between;
+}
+.user__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user-component-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+.user-component-name h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.user-component-name h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
