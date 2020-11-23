@@ -12,3 +12,7 @@
     width: 28px;
     height: 28px;
 }
+.more-body .user-component-name i {
+    margin-left: 5px;
+    color: tomato;
+}

@@ -1,0 +1,20 @@
+.icon-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    padding-bottom: 25px;
+}
+.icon-btn__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-btn__icon i {
+    font-size: 37px;
+    margin: 22px 0px;
+}
+.icon-btn__icon span {
+    font-size: 20px;
+    font-weight: 550;
+}

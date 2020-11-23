@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Message - KokoaTalk</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+                <!--wifi 이미지-->
+            </div>
+            <div class="status-bar_column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+                <!--배터리 아이콘과 충전 아이콘-->
+            </div>
+        </div>
+
+        <div class="alt-screen-top">
+            <div class="alt-screen-top-column fa-2x">
+                <i value="BACK" onClick="history.go(-1)" class="fas fa-angle-left"></i>
+            </div>
+            <div class="alt-screen-top-column">
+                <h1>임종훈</h1>
+            </div>
+            <div class="alt-screen-top-column">
+                <span><i class="fas fa-search-plus fa-2x"></i></span>
+                <span><i class="fas fa-bars fa-2x"></i></span>
+            </div>
+        </div>
+        <main class="main-screen chatting">
+            <div class="chat__timestamp">
+                <span>Monday, November 23, 2020</span>
+            </div>
+            <div class="message-row">
+                <img src="image/me.PNG" />
+                <div class="message-row__content">
+                    <span class="message__author">임종훈</span>
+                    <div class="message__info">
+                        <span class="message__buble">안녕하세요. 반갑습니다.</span>
+                        <span class="message__time">23:59</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row-own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__buble">누구세요?</span>
+                        <span class="message__time">23:59</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <span><i class="far fa-plus-square fa-2x"></i></span>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="메세지를 작성하세요." />
+                <i class="far fa-smile fa-2x"></i>
+                <button><i class="fas fa-arrow-up fa-2x"></i></button>
+            </div>
+        </form>
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

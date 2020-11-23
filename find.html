@@ -4,9 +4,9 @@
         <link rel="stylesheet" href="css/style.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Chat - KokoaTalk</title>
+        <title>Find - KokoaTalk</title>
     </head>
-    <body class="friends-body">
+    <body class="find-body">
         <div class="status-bar">
             <div class="status-bar_column">
                 <span>No Service</span>
@@ -41,7 +41,70 @@
                 </li>
             </ul>
         </nav>
-
+        <header class="header">
+            <!--상단에 제목+아이콘 / 이건 screen-top으로 컴포넌트 해줬기 때문에 따로 앞에 friends 써줄 필요 없이 header로 작명-->
+            <h1 class="header_title">Find</h1>
+            <div class="header_icons">
+                <span><i class="fas fa-search fa-2x"></i></span>
+                <span
+                    ><a href="setting.html"><i class="fas fa-cog fa-2x"></i></a
+                ></span>
+                <div class="red_alam na__circle_notification na__circle_notification_header"></div>
+            </div>
+        </header>
+        <main class="main-screen">
+            <div class="icon-btn">
+                <div class="icon-btn__icon"><i class="fas fa-qrcode"></i><span>QR Code</span></div>
+                <div class="icon-btn__icon"><i class="far fa-address-book"></i><span>Add by</span><span>Contacts</span></div>
+                <div class="icon-btn__icon"><i class="fas fa-fingerprint"></i><span>Add by ID</span></div>
+                <div class="icon-btn__icon"><i class="far fa-envelope"></i><span>Invite</span></div>
+            </div>
+            <div class="recommended-friends">
+                <div class="recommended-friends-title"><span>Recommended Friends</span></div>
+                <div class="recommended-friends-content"><span>You have no recommended friends</span></div>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat-header">
+                    <span>Open Chat</span><span>Go to Openchat Home <i class="fas fa-chevron-right"></i></span>
+                </div>
+                <div class="open-post">
+                    <div class="open-chat-column">
+                        <div class="open-chat-component">
+                            <h3>#LOL</h3>
+                            <span>#LOL#LCK#GG</span>
+                            <div class="open-chat-component-who">
+                                <img src="image/lol.PNG" />
+                                <span> 999 members | </span>
+                                <span> Active</span>
+                            </div>
+                        </div>
+                        <div class="open-chat-image">
+                            <img src="image/lol.PNG" />
+                            <div class="open-chat-image-like">
+                                <span><i class="fas fa-heart"></i>999</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="open-chat-column">
+                        <div class="open-chat-component">
+                            <h3>TFT BAM!</h3>
+                            <span>#TFT#DoDoDongJang</span>
+                            <div class="open-chat-component-who">
+                                <img src="image/faker.PNG" />
+                                <span> 888 members | </span>
+                                <span> Active</span>
+                            </div>
+                        </div>
+                        <div class="open-chat-image">
+                            <img src="image/tft.PNG" />
+                            <div class="open-chat-image-like">
+                                <span><i class="fas fa-heart"></i>999</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
     </body>
 </html>

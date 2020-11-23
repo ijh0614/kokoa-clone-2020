@@ -1,0 +1,47 @@
+.more-icon-block {
+    width: 100%;
+    height: 330px;
+}
+.more-icon-btn {
+    display: flex;
+    align-items: center;
+}
+
+.more-icon-btn .icon-btn__icon {
+    margin: 10px 38px;
+}
+.more-suggestions {
+    border-top: var(--main-border);
+    padding-top: 40px;
+    margin: 0px 25px;
+}
+.more-suggestions-icon img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+.more-suggestions-title {
+    margin-bottom: 40px;
+}
+.more-suggestions-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.more-suggestions-icons {
+    display: flex;
+}
+.more-suggestions-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.more-suggestions-icon img {
+    margin-bottom: 20px;
+}
+.more-suggestions-icon span {
+    font-size: 20px;
+    opacity: 0.7;
+    font-weight: 550;
+}

@@ -1,3 +1,13 @@
+@keyframes hideScreen {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 #friends-info {
     background-color: #fafafa;
     padding: 14px 150px;
@@ -28,4 +38,17 @@
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     padding-top: 15px;
     box-sizing: border-box;
+}
+#splash-screen {
+    background-color: var(--main-yellow);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    animation: hideScreen 0.3s ease-in forwards;
+    animation-delay: 1s;
 }

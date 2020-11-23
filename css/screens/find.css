@@ -1,0 +1,128 @@
+.find-body .header_icons {
+    position: relative;
+}
+.find-body .na__circle_notification_header {
+    top: -5px;
+    left: 140px;
+}
+.main-screen {
+    padding: 0px 25px;
+}
+
+.recommended-friends {
+    height: 360px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+.recommended-friends-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.recommended-friends-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+    height: 300px;
+}
+.open-chat-header {
+    display: flex;
+    margin: 25px 0px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.open-chat-header span:last-child {
+    color: rgba(0, 0, 0, 0.4);
+}
+.open-chat-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.open-chat-column:first-child {
+    padding-bottom: 20px;
+    border-bottom: var(--main-border);
+}
+.open-chat-column:last-child {
+    padding-top: 20px;
+}
+.open-chat-image {
+    position: relative;
+}
+.open-chat-image img {
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+}
+.open-chat-component h3 {
+    font-size: 23px;
+    font-weight: 550;
+}
+.open-chat-component > span {
+    display: block;
+    font-size: 20px;
+    opacity: 0.7;
+    margin: 10px 0px;
+}
+.open-chat-component-who {
+    display: flex;
+    align-items: center;
+}
+.open-chat-component-who img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.open-chat-component-who span:first-child {
+    font-size: 19px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.open-chat-component-who span:last-child {
+    font-size: 19px;
+    font-weight: 500;
+    color: palevioletred;
+    margin-left: 10px;
+}
+.open-chat-image-like {
+    width: 75px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 15px;
+    right: 8px;
+    bottom: 13px;
+}
+.open-chat-image-like i {
+    will-change: transform;
+    margin-right: 5px;
+}
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: red;
+        transform: scale(1.3);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-chat-image-like:hover i {
+    animation: heartBeat 1s ease-in-out infinite;
+}

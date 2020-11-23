@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Setting - KokoaTalk</title>
+    </head>
+    <body class="find-body">
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+                <!--wifi 이미지-->
+            </div>
+            <div class="status-bar_column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar_column">
+                <span>100%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+                <!--배터리 아이콘과 충전 아이콘-->
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a class="nav__a" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="chat.html"><i class="far fa-comment fa-2x"></i></a>
+                    <span class="red_alam na__num_notification">1</span>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="find.html"><i class="fas fa-search-plus fa-2x"></i></a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                    <div class="red_alam na__circle_notification"></div>
+                </li>
+            </ul>
+        </nav>
+        <div class="alt-screen-top">
+            <div class="alt-screen-top-column fa-2x">
+                <i value="BACK" onClick="history.go(-1)" class="fas fa-angle-left"></i>
+            </div>
+            <div class="alt-screen-top-column">
+                <h1>Settings</h1>
+            </div>
+            <div class="alt-screen-top-column">
+                <i class="fas fa-search-plus fa-2x"></i>
+            </div>
+        </div>
+        <ul class="setting-page-settings">
+            <li class="settins__setting">
+                <i class="fas fa-bullhorn"></i>
+                <span class="settins__setting__title">Notices</span>
+            </li>
+            <li class="settins__setting">
+                <i class="fas fa-flask"></i>
+                <span class="settins__setting__title">Kakao Lab</span>
+            </li>
+            <li class="settins__setting column-style">
+                <div class="settins__setting__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span class="settins__setting__title">Version</span>
+                </div>
+                <div class="settins__setting__column">
+                    <span class="settins__setting__column__right">Latest Version</span>
+                </div>
+            </li>
+        </ul>
+        <ul class="second-settings">
+            <li class="settins__setting">
+                <i class="fas fa-lock"></i>
+                <span class="settins__setting__title">Privacy</span>
+            </li>
+            <li class="settins__setting">
+                <i class="far fa-bell"></i>
+                <span class="settins__setting__title">Notification</span>
+            </li>
+            <li class="settins__setting">
+                <i class="far fa-user"></i>
+                <span class="settins__setting__title">Friends</span>
+            </li>
+            <li class="settins__setting">
+                <i class="far fa-comment"></i>
+                <span class="settins__setting__title">Chats</span>
+            </li>
+        </ul>
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

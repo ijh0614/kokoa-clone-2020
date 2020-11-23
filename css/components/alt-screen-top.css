@@ -1,0 +1,28 @@
+.alt-screen-top {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    padding: 50px 30px 20px 20px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.alt-screen-top-column {
+    width: 33%;
+}
+.alt-screen-top .alt-screen-top-column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.alt-screen-top .alt-screen-top-column:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-screen-top i {
+    cursor: pointer;
+}
+.alt-screen-top-column span:first-child {
+    margin-right: 23px;
+}
